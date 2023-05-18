@@ -1,0 +1,14 @@
+.underline {
+    text-decoration: underline;
+    color: red;
+}
+.line-through {
+    text-decoration: line-through;
+    color: green;
+}
+.overline {
+    text-decoration: overline;
+}
+a {
+    text-decoration: none;
+}

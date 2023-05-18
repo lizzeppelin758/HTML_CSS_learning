@@ -1,0 +1,62 @@
+a {
+	color:green;
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.parent {
+	padding: 10px 0;
+	border: 1px solid red;
+	margin: 10px;
+}
+.child {
+	padding: 10px;
+	border: 1px solid green;
+	display: inline-block;
+}
+
+/*N1*/
+.N1 {
+	text-align: center;
+}
+
+/*N2*/
+.N2 {
+	text-align: right;
+}
+
+/*N3*/
+.N3 {
+	padding: 10px 20px 10px 0;
+	text-align: right;
+}
+
+/*N4*/
+.N4 {
+	text-align: right;
+}
+.n4 {
+	margin-right: 20px;
+}
+
+/*N5*/
+.N5 {
+	text-align: right;
+}
+.n5 {
+	width: 100px;
+}
+
+/*N5*/
+.N6 {
+	text-align: right;
+}
+.n6 {
+	width: 100px;
+}
+.N6 a {
+	text-align: center;
+}

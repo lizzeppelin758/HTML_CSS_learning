@@ -1,0 +1,14 @@
+/*N1*/
+ul.N1 {
+	list-style-type: square;
+}
+
+/*N2*/
+ul.N2 {
+	list-style-type: circle;
+}
+
+/*N3*/
+ul.N3 {
+	list-style-type: none;
+}

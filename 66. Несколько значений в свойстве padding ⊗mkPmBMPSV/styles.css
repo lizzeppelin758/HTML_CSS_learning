@@ -1,0 +1,28 @@
+
+.parent_N1 {
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px 20px 30px 40px;
+    text-align: justify;
+}
+
+.parent_N2 {
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 50px 30px;
+    text-align: justify;
+}
+
+.parent_N3 {
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px 20px 30px;
+    text-align: justify;
+}
+

@@ -1,0 +1,26 @@
+/* №1 */
+h1 {
+    text-align: right;
+}
+/* №2, №8 */
+h2 {
+    width: 300px;
+    text-align: center;
+}
+/* №3 */
+table {
+    width: 500px;
+}
+/* №4 */
+th {
+    text-align: left;
+}
+/* №5 */
+td {
+    text-align: center;
+}
+/* №6, №7 */
+p {
+    width: 300px;
+    text-align: justify;
+}

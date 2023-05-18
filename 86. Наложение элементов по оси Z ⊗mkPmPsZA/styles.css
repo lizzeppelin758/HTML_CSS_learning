@@ -1,0 +1,62 @@
+.parent {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 20px auto;
+	border: 1px solid rgb(169, 169, 169);
+	
+}
+.child {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.n1 {
+	background-color: rgb(255, 140, 140);
+	top: 50px;
+	left: 50px;
+}
+.n2 {
+	background-color: rgb(140, 169, 255);
+	top: 80px;
+	left: 80px;
+}
+.n3 {
+	background-color: rgb(148, 255, 140);
+	top: 110px;
+	left: 110px;
+}
+
+/*N1*/
+.N1 .n1 {
+	z-index: 1;
+}
+.N1 .n2 {
+	z-index: 2;
+}
+.N1 .n3 {
+	z-index: 1;
+}
+
+/*N2*/
+.N2 .n1 {
+	z-index: 3;
+}
+.N2 .n2 {
+	z-index: 2;
+}
+.N2 .n3 {
+	z-index: 1;
+}
+
+/*N3*/
+.N3 .n1 {
+	z-index: 1;
+}
+.N3 .n2 {
+	z-index: -1;
+}
+.N3 .n3 {
+	z-index: 1;
+}

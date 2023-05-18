@@ -1,0 +1,33 @@
+
+.parent_N1 {
+    width: 400px;
+    height: auto;
+    border: 1px dashed blue;
+    margin: 20px;
+}
+.child_N1 {
+    width: auto;
+    height: 300px;
+    border: 1px solid orange;
+    margin: 50px;
+}
+
+.parent_N2 {
+    width: 500px;
+    height: auto;
+    border: 1px dashed blue;
+    margin: 20px;
+}
+.child_N2 {
+    width: auto;
+    height: 300px;
+    border: 1px dashed green;
+    margin: 30px;
+}
+.prachild_N2 {
+    width: auto;
+    height: 240px;
+    border: 1px solid red;
+    margin: 30px;
+}
+

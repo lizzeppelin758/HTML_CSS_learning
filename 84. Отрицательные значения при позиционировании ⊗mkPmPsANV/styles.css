@@ -1,0 +1,21 @@
+#parent {
+	width: 300px;
+	height: 200px;
+	margin: 20px auto;
+	border: 1px solid green;
+	position: relative;
+}
+.child {
+	width: 30px;
+	height: 30px;
+	border: 1px solid red;
+	position: absolute;
+}
+.n1 {
+	left: -50px;
+}
+.n2 {
+	right: -50px;
+}
+
+

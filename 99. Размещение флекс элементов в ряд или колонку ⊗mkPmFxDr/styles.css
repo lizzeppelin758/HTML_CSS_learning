@@ -1,0 +1,24 @@
+.parent {
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+	display: flex;
+}
+.child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.N1 {
+	flex-direction: row;
+}
+.N2 {
+	flex-direction: column;
+}
+.N3 {
+	flex-direction: row-reverse;
+}
+.N4 {
+	flex-direction: column-reverse;
+}

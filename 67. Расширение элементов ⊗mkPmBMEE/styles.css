@@ -1,0 +1,25 @@
+.original {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: antiquewhite;
+    text-align: justify;
+}
+.N1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 8px double green;
+    padding: 40px;
+    text-align: justify;
+}
+
+.N2_box-sizing {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 8px double red;
+    padding: 40px;
+    text-align: justify;
+    box-sizing: border-box;
+}

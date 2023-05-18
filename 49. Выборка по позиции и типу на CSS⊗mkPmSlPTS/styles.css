@@ -1,0 +1,36 @@
+/*N1*/
+.N1 ul:first-of-type {
+	color: red;
+}
+/*N1
+.N1 ul:first-child {
+	color: red;
+} этот селектор в данном случае не делает ничего, потому что элемент ul стоит не первым внутри своего родителя*/
+
+/*N1*/
+.N1 ul:last-of-type {
+	color: green;
+}
+
+/*N1
+.N1 ul:last-child {
+	color: green;
+} этот селектор в данном случае не делает ничего, потому что элемент ul стоит не последним внутри своего родителя*/
+
+/*N2 Найдем второй h3*/
+.N2 h3:nth-of-type(2) {
+	color: forestgreen;
+}
+/*N2 Найдем нечетные абзацы*/
+.N2 p:nth-of-type(odd) {
+	color: plum;
+}
+/*N2 Найдем последнюю ссылку*/
+.N2 a:nth-last-of-type(1) {
+	color: red;
+}
+
+/*N3 Найдем единственный заголовок h2*/
+.N2 h2:only-of-type {
+	color:brown;
+}

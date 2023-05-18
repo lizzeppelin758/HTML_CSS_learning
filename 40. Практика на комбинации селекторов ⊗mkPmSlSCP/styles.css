@@ -1,0 +1,87 @@
+h1 {
+	font-size: 20px;
+}
+/* N1 */
+.N1 div p {
+	color:blue;
+}
+
+/* N2 */
+.N2 div h2 {
+	color:chartreuse;
+}
+
+/* N3 */
+.N3 #block p {
+	color:blueviolet;
+}
+
+/* N4 */
+.N4 #block h2 {
+	color:crimson;
+}
+
+/* N5 */
+.N5 .bbb {
+	color:darkblue;
+}
+
+/* N6 */
+.N6 #block .bbb {
+	color:darkgreen;
+}
+
+/* N7 */
+.N7 p.bbb {
+	color:red;
+}
+
+/* N8 */
+.N8 h2.bbb {
+	color:red;
+}
+
+/* N9 */
+.N9 #block p.bbb {
+	color:red;
+}
+
+/* N10 */
+.N10 .bbb, .N10 .xxx {
+	color:red;
+}
+
+/* N11 */
+.N11 p.bbb, .N11 h2.xxx {
+	color:red;
+}
+
+/* N12 */
+.N12 #block p.bbb, .N12 #block p.xxx {
+	color:red;
+}
+
+/* N13 */
+.N13 .fff {
+	color:red;
+}
+
+/* N14 */
+.N14 .fff p{
+	color:red;
+}
+
+/* N15 */
+.N15 p.fff {
+	color:red;
+}
+
+/* N16 */
+.N16 .fff .bbb {
+	color:red;
+}
+
+/* N17 */
+.N17 .fff h2.bbb {
+	color:red;
+}

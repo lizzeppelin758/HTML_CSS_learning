@@ -1,0 +1,9 @@
+/* N1 */
+#elem + li {
+	color: red;
+}
+
+/* N2 */
+.elem + li {
+	color: blue;
+}

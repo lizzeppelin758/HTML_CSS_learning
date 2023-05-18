@@ -1,0 +1,25 @@
+/* N1 */
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+/* N2 */
+.text-style{
+	text-indent: 20px;
+	font: 10px/15px Arial;
+}
+.color {
+	color:rgb(59, 96, 243);
+}
+.place {
+	width: 500px;
+}

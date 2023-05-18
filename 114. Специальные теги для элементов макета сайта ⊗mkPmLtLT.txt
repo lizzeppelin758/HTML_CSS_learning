@@ -1,0 +1,131 @@
+№1
+
+<div id="wrapper">
+	<header>
+		<nav>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</nav>
+	</header>
+	<div id="container">
+		<aside>
+			sidebar
+		</aside>
+		<main>
+			content
+		</main>
+	</div>
+	<footer>
+		footer
+	</footer>
+</div>
+
+№2
+
+<main>
+	<h1></h1>
+	
+	<section>
+		<h2></h2>
+		<p>
+			
+		</p>
+		<p>
+			
+		</p>
+	</section>
+	<section>
+		<h2></h2>
+		<p>
+			
+		</p>
+		<p>
+			
+		</p>
+	</section>
+</main>
+
+№3
+
+<div id="wrapper">
+	<header>
+		<div id="logo">
+			<img src="" alt="logo">
+		</div>
+		<nav>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</nav>
+	</header>
+	<div id="container">
+		<aside>
+			<section>
+				section
+			</section>
+			<section>
+				section
+			</section>
+			<section>
+				section
+			</section>
+		</aside>
+		<main>
+			<h1>main header</h1>
+
+			<section>
+				<h2>section header</h2>
+				<div>
+					<p>
+						
+					</p>
+					<p>
+						
+					</p>
+				</div>
+				<div>
+					<p>
+						
+					</p>
+					<p>
+						
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2>section header</h2>
+				<div>
+					<p>
+						
+					</p>
+					<p>
+						
+					</p>
+				</div>
+				<div>
+					<p>
+						
+					</p>
+					<p>
+						
+					</p>
+				</div>
+			</section>
+		</main>
+		<aside>
+			<section>
+				section
+			</section>
+			<section>
+				section
+			</section>
+			<section>
+				section
+			</section>
+		</aside>
+	</div>
+	<footer>
+		footer
+	</footer>
+</div>

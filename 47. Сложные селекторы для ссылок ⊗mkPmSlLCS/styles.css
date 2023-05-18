@@ -1,0 +1,32 @@
+/* N1 */
+a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+/* выбирает все ссылки на странице*/
+
+a.zzz {
+	color: blue;
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+/*выбирает ссылки класса zzz*/
+
+#block a.zzz {
+	color: palegreen;
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+/*выбирает ссылки класса zzz, находящиеся внутри элемента с id block*/
+
+.block a.zzz {
+	color: violet;
+}
+.block a.zzz:hover {
+	text-decoration: none;
+}
+/*выбирает ссылки класса zzz, находящиеся внутри элемента с классом block*/

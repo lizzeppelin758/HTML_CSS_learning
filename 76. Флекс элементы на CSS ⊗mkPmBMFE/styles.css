@@ -1,0 +1,80 @@
+
+.parent {
+	width: 800px;
+	height: 400px;
+	border: 1px solid red;
+	margin: 20px auto;
+}
+.flex-child {
+	display: flex; /* потомки будут флекс элементами */ 
+}
+.inline-flex-child {
+	display: inline-flex; /* родитель будет строчно-блочным элементом */ 
+}
+.child {
+	border: 1px solid green;
+}
+/*N1*/
+.N1 {
+	width: 800px;
+	height: 400px;
+	
+}
+.n1 {
+	width: 100px;
+	height: 50px;
+}
+
+/*N2*/
+.N2 {
+	width: 800px;
+	height: auto;
+}
+.n2 {
+	width: 100px;
+	height: 80px;
+}
+
+
+/*N3*/
+.N3 {
+	width:auto;
+	height: auto;
+}
+.n3 {
+	width: 100px;
+	height: 50px;
+}
+
+/*N4*/
+.N4 {
+	width:auto;
+	height: auto;
+}
+.n4 {
+	width: 100px;
+	height: 50px;
+}
+
+/*N5*/
+.N5 {
+	width:auto;
+	height: auto;
+	padding: 20px;
+}
+.n5 {
+	width: 100px;
+	height: 50px;
+}
+
+/*N6*/
+.N6 {
+	width:auto;
+	height: auto;
+}
+.n6 {
+	width: 50px;
+	height: 80px;
+	margin: 20px;
+}
+

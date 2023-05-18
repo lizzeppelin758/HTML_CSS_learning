@@ -1,0 +1,15 @@
+div {
+	width: 800px;
+	margin: 10px auto;
+	text-align: justify;
+}
+#sheep1 {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+#sheep2 {
+	float: right;
+	width: 300px;
+	margin: 10px;
+}

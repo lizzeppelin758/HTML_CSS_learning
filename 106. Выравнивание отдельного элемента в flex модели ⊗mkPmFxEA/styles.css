@@ -1,0 +1,39 @@
+.parent {
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+	display: flex;
+}
+.child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.no_height {
+	height: auto;
+}
+
+.N1 {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.to_bottom {
+	align-self: flex-end;
+}
+
+.N2 {
+	justify-content: center;
+}
+.in_center {
+	align-self: center;
+}
+
+.N3 {
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+

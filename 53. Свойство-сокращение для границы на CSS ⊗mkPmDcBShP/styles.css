@@ -1,0 +1,23 @@
+/* №1 */
+.N1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+.N2 {
+    width: 300px;
+    height: 200px;
+    border: 2px dotted blue;
+}
+
+.N3 {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed green;
+}
+
+.N4 {
+    width: 300px;
+    height: 200px;
+    border: 5px double orange;
+}

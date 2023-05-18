@@ -1,0 +1,103 @@
+
+.square {
+	width: 50px;
+	height: 50px;
+	border: 1px solid;
+}
+
+.red {
+	border-color: red;
+}
+.blue {
+	border-color: blue;
+}
+.green {
+	border-color: green;
+}
+/*N1*/
+.N1 .n1{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.N1 .n2{
+	position: absolute;
+	left: 120px;
+	top: 120px;
+}
+.N1 .n3{
+	position: absolute;
+	left: 190px;
+	top: 190px;
+}
+/*N2*/
+.N2 {
+	position: absolute;
+	top: 250px;
+}
+.N2 .n1{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.N2 .n2{
+	position: absolute;
+	left: 120px;
+	top: 50px;
+}
+.N2 .n3{
+	position: absolute;
+	left: 190px;
+	top: 50px;
+}
+
+/*N3*/
+.N3 {
+	position: absolute;
+	top: 350px;
+}
+.N3 .n1{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.N3 .n2{
+	position: absolute;
+	left: 80px;
+	top: 80px;
+}
+.N3 .n3{
+	position: absolute;
+	left: 110px;
+	top: 110px;
+}
+
+/*N4*/
+.N4 {
+	position: absolute;
+	top: 500px;
+}
+.N4 .n1{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	background-color: #ff8484;
+	border: none;
+}
+.N4 .n2{
+	position: absolute;
+	left: 80px;
+	top: 80px;
+	background-color: #7272ff;
+	border: none;
+}
+.N4 .n3{
+	position: absolute;
+	left: 110px;
+	top: 110px;
+	background-color: #91ff91;
+	border: none;
+}
+
+
+

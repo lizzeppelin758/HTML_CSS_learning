@@ -1,0 +1,37 @@
+.wrapper {
+    width: 700px;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+    font: normal 32px "Times New Roman";
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.content {
+    border: 1px solid black;
+    padding: 40px 20px 20px;
+    margin: 20px 0;
+}
+.header_link {
+    font: bold 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+p.more_link {
+    text-align: right;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}

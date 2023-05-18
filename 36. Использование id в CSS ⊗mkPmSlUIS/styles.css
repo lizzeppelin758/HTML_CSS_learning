@@ -1,0 +1,19 @@
+/* N1 */
+#elem h2 {
+	color: green;
+}
+
+/* N2 */
+.task_2 #elem .text {
+	color: blue;
+}
+
+/* N3 */
+.task_3 #elem p.text {
+	color: orange;
+}
+
+/* N4 */
+.task_4 #elem li.text {
+	color:indianred;
+}

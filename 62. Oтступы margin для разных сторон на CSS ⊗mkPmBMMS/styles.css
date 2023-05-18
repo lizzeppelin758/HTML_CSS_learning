@@ -1,0 +1,46 @@
+
+
+.parent_N1 {
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+}
+.child_N1 {
+    width: auto;
+    height: 100px;
+    border: 1px solid green;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.parent_N2 {
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+}
+.child_N2 {
+    width: auto;
+    height: 100px;
+    border: 1px solid green;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.parent_N3 {
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+    margin: 20px;
+}
+.child_N3 {
+    width: auto;
+    height: 100px;
+    border: 1px solid green;
+    margin: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

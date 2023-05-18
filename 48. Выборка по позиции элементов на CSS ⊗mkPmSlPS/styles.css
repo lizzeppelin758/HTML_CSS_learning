@@ -1,0 +1,59 @@
+/*N1*/
+.N1 li:first-child {
+	color: red;
+}
+
+/*N2*/
+.N2 li:last-child {
+	color: green;
+}
+
+/*N3*/
+.N3 li:first-child {
+	color: red;
+}
+.N3 li:last-child {
+	color:green;
+}
+
+/*N4*/
+.N4 li:nth-child(3) {
+	color:red;
+}
+
+/*N5*/
+.N5 li:nth-child(odd) {
+	color: red;
+}
+.N5 li:nth-child(even) {
+	color:green;
+}
+/*N6*/
+.N6 li:nth-child(3n) {
+	color:red;
+}
+
+/*N7*/
+.N7 li:nth-last-child(2) {
+	color:red;
+}
+
+/*N8*/
+.N8 li:only-child {
+	color:red;
+}
+
+/*N9*/
+.N9 li {
+	border: 1px solid red;
+
+	width: 100px;
+	margin: 10px;
+}
+.N9 li:empty {
+	border: 1px solid blue;
+	width: 100px;
+}
+.N9 li:empty:last-child {
+	display: none;
+}

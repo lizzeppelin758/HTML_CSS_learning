@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	margin-bottom: 30px;
+}
+.center {
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+}
+.red_block {
+	background-color: rgb(196, 0, 0);
+}
+.green_block {
+	background-color: rgb(0, 105, 0);
+}
+.coral_block {
+	background-color: coral;
+}
+
+.header {
+	margin-top: 0;
+	margin-bottom: 5px;
+	font: bold 24px Arial;
+}
+.offer .header {
+	font-size: 32px;
+	padding-top: 10px;
+}
+.offer .header, .contacts .header {
+	color:white;
+	line-height: 40px;
+}
+
+.text {
+	margin-top: 0;
+	padding: 0;
+	text-align: justify;
+	font: 14.5px Arial;
+
+}
+.offer .text, .contacts .text, .footer .text {
+	text-align: center;
+	color:white;
+	padding-bottom: 10px;
+}
+.contacts .text {
+	padding-bottom: 20px;
+}
+
+.offer .list {
+	list-style-type: none;
+	font-size: 18px;
+}
+.offer .list li {
+	margin: 5px 0;
+}
+.service .list {
+	list-style-position: inside;
+}
+.service .list li {
+	margin: 10px 0;
+}
+
+.footer .text {
+	padding-top: 95px;
+	font-size: 12px;
+}

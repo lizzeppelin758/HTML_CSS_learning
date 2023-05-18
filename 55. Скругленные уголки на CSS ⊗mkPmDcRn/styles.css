@@ -1,0 +1,21 @@
+
+.N1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.N2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.N3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid green;
+}
+
+

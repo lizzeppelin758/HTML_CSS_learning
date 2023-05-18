@@ -1,0 +1,22 @@
+/*N1*/
+.N1 li:not(.elem) {
+	color: red;
+}
+
+/*N2*/
+.N2 li:not(:first-child) {
+	color: red;
+}
+
+/*N3
+.N3 li:not(:first-child:nth-child(9)) {
+	color: red;
+}*/
+.N3 li:not(:nth-child(n+2):nth-child(-n+8)) {
+	color: red;
+}
+/*
+.N3 li:not(:nth-child(1)){
+	color: red;
+}
+*/

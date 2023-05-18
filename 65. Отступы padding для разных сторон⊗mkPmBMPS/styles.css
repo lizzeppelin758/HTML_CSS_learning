@@ -1,0 +1,12 @@
+
+.parent_N1 {
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    text-align: justify;
+}
+

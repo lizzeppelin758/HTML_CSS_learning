@@ -1,0 +1,127 @@
+№1
+.bbb.zzz {
+	color: red;
+}
+Селектор выбирает элемент, одновременно имеющий класс bbb и класс zzz
+<p class="bbb zzz">Текст</p>
+
+№2
+h2.bbb.zzz {
+	color: red;
+}
+Cелектор выбирает заголовок h2, одновременно имеющий класс bbb и класс zzz.
+<h2 class="bbb zzz">Заголовок</p>
+
+№3
+#elem.bbb {
+	color: red;
+}
+Селектор выбирает элемент с id elem и классом bbb
+<span id="elem" class="bbb">Текст</span>
+
+№4
+#elem.bbb.zzz {
+	color: red;
+}
+Селектор выбирает элемент с id elem и классами bbb и zzz
+<span id="elem" class="bbb zzz">Текст</span>
+
+№5
+h2#elem.bbb {
+	color: red;
+}
+Cелектор выбирает заголовок h2, одновременно имеющий id elem и  
+класс bbb.
+<h2 id="elem" class="bbb zzz">Заголовок</p>
+
+№6
+h2.zzz {
+	color: red;
+}
+Cелектор выбирает заголовок h2, имеющий класс zzz.
+<h2 class="zzz">Заголовок</p>
+
+
+№7
+h2 .zzz {
+	color: red;
+}
+Cелектор выбирает элемент класса zzz, находящийся внутри заголовка h2.
+<h2>Длинный заголовок со <span class="zzz">всякими элементами</span> внутри</p>
+
+
+№8
+.bbb.zzz {
+	color: red;
+}
+Cелектор выбирает элемент, одновременно имеющий классы bbb и zzz.
+<p class="bbb zzz">Текст</p>
+
+
+№9
+.bbb .zzz {
+	color: red;
+}
+Cелектор выбирает элемент класса zzz, находящийся внутри элемента класса bbb.
+<div class="bbb">
+<p class="zzz">Текст</p>
+</div>
+
+№10
+.bbb.zzz.xxx {
+	color: red;
+}
+Cелектор выбирает элемент, одновременно имеющий классы bbb, zzz и xxx.
+<p class="bbb zzz xxx">Текст</p>
+
+№11
+.bbb .zzz.xxx {
+	color: red;
+}
+Cелектор выбирает элемент, имеющий одновременно классы zzz и xxx, 
+находящийся внутри элемента класса bbb.
+<div class="bbb">
+<p class="zzz xxx">Текст</p>
+</div>
+
+
+№12
+.bbb.zzz .xxx {
+	color: red;
+}
+Cелектор выбирает элемент класса xxx, 
+находящийся внутри элемента, имеющего классы bbb и zzz.
+<div class="bbb zzz">
+<p class="xxx">Текст</p>
+</div>
+
+№13
+.bbb .zzz .xxx {
+	color: red;
+}
+Cелектор выбирает элемент класса xxx, 
+находящийся внутри элемента класса zzz, 
+находящегося внутри элемента класса bbb.
+<div class="bbb">
+<p class="zzz">Большой текст с <span class="xxx">разными</span> стилями</p>
+</div>
+
+
+№14
+#elem.bbb {
+	color: red;
+}
+Селектор выбирает элемент с id elem и классом bbb
+<span id="elem" class="bbb">Текст</span>
+
+
+№15
+#elem .bbb {
+	color: red;
+}
+Селектор выбирает элемент класса bbb, находящийся внутри элемента с id elem
+<p id="elem">Текст
+<span class="bbb">ещё текст</span>
+</p>
+
+

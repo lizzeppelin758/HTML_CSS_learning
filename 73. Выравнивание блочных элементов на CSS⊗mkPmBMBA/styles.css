@@ -1,0 +1,26 @@
+/*!!!можно центрировать только блочные элементы, только по горизонтали и только, если им задана ширина.*/
+
+.parent {
+	width: 500px;
+	height: auto;
+	/*outline: 1px solid red; - нерельная граница. если сделать ее вместо бордер, то марджины родителя и потомков сверху и снизу схлопнутся, и блоки потомков прилипнут к верхним краям родителя*/
+	border: 1px solid red;
+}
+.child_1 {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	border: 1px solid green;
+}
+.child_2 {
+	width: 200px;
+	height: 100px;
+	margin: 10px auto; /* отступы сверху и снизу блоков не складываются, а схлопываются, поэтому между дочерними блоками будет расстояние 10px, а не 20px */
+	border: 1px solid green;
+}
+.child_3 {
+	width: 300px;
+	height: 100px;
+	margin: 10px auto;
+	border: 1px solid green;
+}

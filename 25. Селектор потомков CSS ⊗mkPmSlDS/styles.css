@@ -1,0 +1,11 @@
+/* N1 */
+ul i {
+    color: red;
+}
+p i {
+    color: green;
+}
+/* N2 */
+p b i {
+    color: red;
+}

@@ -1,0 +1,16 @@
+/*N1, сделать абзацы строчными элементами*/
+p {
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	display: inline;
+}
+/*N2, сделать ссылки блочными элементами*/
+a {
+	width: 300px;
+	height: 200px;
+	border: 1px solid violet;
+	display: block;
+	margin: 20px;
+}
+

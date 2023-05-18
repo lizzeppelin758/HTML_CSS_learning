@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: rgb(231, 231, 231);
+}
+nav {
+    background-color: black;
+}
+.menu {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+}
+.menu a {
+    color: white;
+    font: 19px Arial;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.menu a.active, .menu a:hover {
+    background-color: grey;
+}
+p {
+    text-align: justify;
+    font: 13px/15px Arial;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+section p:last-child {
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+.sidebar {
+    padding: 20px;
+}
+.left {
+    width: 300px;
+    padding-right: 10px;
+}
+.left p {
+    line-height: 17px;
+}
+.right {
+    width: 290px;
+    padding-left: 10px;
+}
+.right img {
+    width: 260px;
+    margin: 5px 0;
+} 
+main {
+    width: 510px;
+    padding: 20px 10px;
+}
+main img {
+    width: 490px;
+    margin: 5px 0;
+}
+h1 {
+    font: bold 21px Arial;
+    margin: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font: bold 17px Arial;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+}
+.foot_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+.foot_block {
+    background-color: rgb(231, 231, 231);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 32px;
+}
+.foot_block:last-child {
+    margin-right: 0;
+}
+h3 {
+    font: bold 19px Arial;
+    text-align: center;
+    margin: 12px 0;
+}
+.foot_block p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+.foot_block p:first-of-type {
+   padding: 0 15px;
+}
+.foot_block p:last-child {
+    margin-bottom: 40px;
+}
+.sign-text {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}

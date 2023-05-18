@@ -1,0 +1,14 @@
+/*N1*/
+ol.N1 {
+	list-style-type: lower-alpha;
+}
+
+/*N2*/
+ol.N2 {
+	list-style-type: lower-greek;
+}
+
+/*N3*/
+ol.N3 {
+	list-style-type: upper-alpha;
+}

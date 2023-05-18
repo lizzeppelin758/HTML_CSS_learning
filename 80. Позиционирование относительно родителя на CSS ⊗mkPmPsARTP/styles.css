@@ -1,0 +1,173 @@
+
+.square {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+}
+
+.red {
+	border-color: red;
+}
+.blue {
+	border-color: blue;
+}
+.green {
+	border-color: green;
+}
+.white {
+	background-color: white;
+	border: none;
+}
+
+.circle {
+	border-radius: 50%;
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+}
+.white_circle {
+	background-color: white;
+	border: none;
+}
+/*N1*/
+.N1 {
+	width: 500px;
+	height: 400px;
+	margin: 20px auto;
+	position: relative;
+	border: 1px solid green;
+}
+.N1 .n1{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+/*N2*/
+.N2 {
+		width: 500px;
+		height: 400px;
+		margin: 20px auto;
+		position: relative;
+		background-color: #91ff91;
+}
+.N2 .n1{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.N2 .n2{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+}
+
+
+/*N3*/
+.N3 {
+	width: 200px;
+	height: 400px;
+	margin: 20px auto;
+	position: relative;
+	border: 1px solid black;
+}
+.red_circle {
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	background-color: red;
+}
+.yellow_circle {
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	background-color: yellow;
+}
+.green_circle {
+	position: absolute;
+	left: 50px;
+	top: 260px;
+	background-color: green;
+}
+
+/*N4*/
+.N4 {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	margin: 20px auto;
+	position: relative;
+	background-color: #91ff91;
+}
+.N4 .n1{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 215px;
+	top: 210px;
+}
+.N4 .n2{
+	width: 210px;
+	height: 15px;
+	position: absolute;
+	left: 145px;
+	bottom: 120px;
+}
+.N4 .n3{
+	position: absolute;
+	left: 100px;
+	top: 80px;
+}
+.N4 .n4{
+	position: absolute;
+	right: 100px;
+	top: 80px;
+}
+
+/*N5*/
+.N5 {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	margin: 20px auto;
+	position: relative;
+	background-color:rgb(204, 237, 71);
+}
+.eye_1{
+
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+.eye_2{
+
+	position: absolute;
+	right: 100px;
+	top: 100px;
+}
+
+.nose{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 205px;
+	top: 260px;
+}
+.smile {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 125px;
+	bottom: 50px;
+}
+.olive_circle {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 50px;
+	bottom: 80px;
+	border: none;
+	background-color: rgb(204, 237, 71);
+}
+
+

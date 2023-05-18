@@ -1,0 +1,32 @@
+.parent {
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+	display: flex;
+}
+.child {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.N1 {
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.N2 {
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.N3 {
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+}
+.N4 {
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+.N5 {
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+}
